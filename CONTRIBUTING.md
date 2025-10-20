@@ -38,7 +38,7 @@ If you find a bug in **any** Valourite project, please open an issue in that pro
 * **Screenshots or Logs:** If applicable.
 * **Environment:** OS, PHP or Flutter version, browser, or tool versions.
 
-👉 Each repository has its own **Issues** tab for reporting problems (e.g., [Valourite/Form-Builder](https://github.com/Valourite/Form-Builder/issues)).
+👉 Each repository has its own **Issues** tab for reporting problems (e.g., [Valourite/Dynamic-Models](https://github.com/Valourite/dynamic-models/issues)).
 
 ---
 
@@ -112,7 +112,7 @@ See each project’s `TRANSLATIONS.md` or `lang/` folder for details.
 
 Join the community to help others and share ideas:
 
-* **[Discord Community](https://discord.gg/PPzD2hTrXt)** — Real-time collaboration with developers.
+* **[Discord Community](#)** — To Be Announced
 * **GitHub Discussions / Issues** — Participate in design and feedback.
 * **Contribute Examples or Demos** — Share code samples, bug reproductions, or UI ideas.
 
@@ -177,7 +177,7 @@ See the repository’s `README.md` for setup instructions specific to that proje
 
 ## Community and Support
 
-* 💬 **Discord:** [discord.gg/PPzD2hTrXt](https://discord.gg/PPzD2hTrXt)
+* 💬 **Discord:** [discord.gg/PPzD2hTrXt](#) To Be Announced
 * 🧩 **GitHub Organization:** [github.com/Valourite](https://github.com/Valourite)
 * 🧠 **Knowledge Base (Coming Soon):** Central documentation for all packages
 
