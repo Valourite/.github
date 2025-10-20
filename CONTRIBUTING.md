@@ -1,22 +1,29 @@
-# Contributing to InvoicePlane
+# Contributing to Valourite Projects
 
-Thank you for considering contributing to InvoicePlane! Your support is invaluable in improving and maintaining this project. Whether you're reporting bugs, suggesting features, writing code, or helping others, your contributions are welcome.
+Thank you for your interest in contributing to **Valourite**!
+We’re building a collection of high-quality open-source packages and modular applications — from Laravel and Filament plugins to Flutter apps and DevOps tools. Your help keeps these projects growing and improving.
+
+This guide explains how you can contribute to **any** Valourite project — whether you’re reporting a bug, improving code, enhancing documentation, or helping others.
+
+---
 
 ## Table of Contents
 
-1. [How Can I Contribute?](#how-can-i-contribute)  
-   - [Reporting Bugs](#reporting-bugs)  
-   - [Suggesting Features](#suggesting-features)  
-   - [Code Contributions](#code-contributions)  
-   - [Documentation](#documentation)  
-   - [Translations](#translations)  
-   - [Community Support](#community-support)  
-2. [Development Guidelines](#development-guidelines)  
-   - [Coding Standards](#coding-standards)  
-   - [Commit Messages](#commit-messages)  
-3. [Getting Started with Development](#getting-started-with-development)  
-4. [Community and Support](#community-and-support)  
-5. [Code of Conduct](#code-of-conduct)  
+1. [How Can I Contribute?](#how-can-i-contribute)
+
+   * [Reporting Bugs](#reporting-bugs)
+   * [Suggesting Features](#suggesting-features)
+   * [Code Contributions](#code-contributions)
+   * [Documentation](#documentation)
+   * [Translations](#translations)
+   * [Community Support](#community-support)
+2. [Development Guidelines](#development-guidelines)
+
+   * [Coding Standards](#coding-standards)
+   * [Branching Strategy](#branching-strategy)
+3. [Getting Started with Development](#getting-started-with-development)
+4. [Community and Support](#community-and-support)
+5. [Code of Conduct](#code-of-conduct)
 
 ---
 
@@ -24,147 +31,169 @@ Thank you for considering contributing to InvoicePlane! Your support is invaluab
 
 ### Reporting Bugs
 
-If you encounter a bug, please report it by [opening an issue](https://github.com/InvoicePlane/InvoicePlane/issues) and include:
+If you find a bug in **any** Valourite project, please open an issue in that project’s repository and include:
 
-- **Description:** A clear and concise description of the bug.  
-- **Steps to Reproduce:** Detailed steps to reproduce the issue.  
-- **Expected Behavior:** What you expected to happen.  
-- **Actual Behavior:** What actually happened.  
-- **Screenshots:** If applicable, add screenshots to help explain the problem.  
-- **Environment:** Information about your environment (e.g., operating system, browser, InvoicePlane version).  
+* **Description:** What happened, and what you expected to happen.
+* **Steps to Reproduce:** A clear list of steps.
+* **Screenshots or Logs:** If applicable.
+* **Environment:** OS, PHP or Flutter version, browser, or tool versions.
+
+👉 Each repository has its own **Issues** tab for reporting problems (e.g., [Valourite/Form-Builder](https://github.com/Valourite/Form-Builder/issues)).
 
 ---
 
 ### Suggesting Features
 
-To suggest a new feature, please [open an issue](https://github.com/InvoicePlane/InvoicePlane/issues) and include:
+Have an idea? We’d love to hear it.
 
-- **Feature Description:** A clear and concise description of the feature.  
-- **Use Case:** Explain why this feature would be useful.  
-- **Additional Context:** Any other context or screenshots that might help.  
+When creating a **feature request**, include:
+
+* **What problem it solves.**
+* **How it would improve the project.**
+* **Any examples or mockups** if relevant.
+
+Use the **“Feature Request”** issue template if the repository provides one.
 
 ---
 
 ### Code Contributions
 
-If you'd like to contribute code:
+We follow a simple fork-and-pull workflow:
 
-1. **Fork the Repository:** Click the "Fork" button at the top right of the [repository page](https://github.com/InvoicePlane/InvoicePlane).  
-2. **Clone Your Fork:**  
-   ```sh
-   git clone https://github.com/your-username/InvoicePlane.git
+1. **Fork the repository** on GitHub.
+2. **Clone your fork:**
+
+   ```bash
+   git clone https://github.com/your-username/repo-name.git
+   cd repo-name
    ```
-3. **Create a Branch:**  
-   ```sh
+3. **Create a feature branch:**
+
+   ```bash
    git checkout -b feature/your-feature-name
    ```
-4. **Make Your Changes:** Implement your feature or fix.  
-5. **Commit Your Changes:**  
-   ```sh
-   git commit -m "Brief description of your changes"
-   ```
-6. **Push to Your Fork:**  
-   ```sh
+4. **Make and test your changes.**
+5. **Commit and push:**
+
+   ```bash
+   git commit -m "Add: short description of feature"
    git push origin feature/your-feature-name
    ```
-7. **Open a Pull Request:** Go to the original repository and [open a pull request](https://github.com/InvoicePlane/InvoicePlane/pulls) from your fork.  
+6. **Open a Pull Request** to the main repository.
 
-Please ensure your code adheres to the [Development Guidelines](#development-guidelines) and includes appropriate tests.
+> 💡 Before submitting a PR, ensure your changes follow the coding standards and include any relevant documentation or tests.
 
 ---
 
 ### Documentation
 
-Improving documentation is a valuable way to contribute. You can:
+Contributing to documentation is just as valuable as code.
 
-- **Enhance Existing Documentation:** Clarify or expand upon current documentation.  
-- **Create New Guides:** Write guides for new features or common tasks.  
-- **Fix Typos or Errors:** Correct any mistakes you find.  
+You can:
 
-To contribute to the documentation:
+* Fix typos or grammar.
+* Add missing instructions.
+* Write or update technical guides.
 
-1. **Fork the Repository:** As described above.  
-2. **Make Your Changes:** Edit the relevant `.md` files.  
-3. **Open a Pull Request:** As described above.  
+Edit Markdown files directly in the repository (`/docs` or root `.md` files) and open a pull request.
 
 ---
 
 ### Translations
 
-Help make InvoicePlane accessible to a global audience by contributing translations:
+Some Valourite projects include multilingual support.
+If your language isn’t yet supported — or translations need improvement — we’d love your help!
 
-- **Check Existing Translations:** See if your language is already supported.  
-- **Improve Translations:** Enhance existing translations for clarity and accuracy.  
-- **Add New Translations:** If your language isn't supported, consider adding it.  
-
-Please refer to the [TRANSLATIONS.md](TRANSLATIONS.md) for detailed instructions.
+See each project’s `TRANSLATIONS.md` or `lang/` folder for details.
 
 ---
 
 ### Community Support
 
-Engage with the InvoicePlane community by:
+Join the community to help others and share ideas:
 
-- **Answering Questions:** Assist others, Help answer questions and contribute to discussions in the [Community Forums](https://community.invoiceplane.com/).
-
-- **[Discord Collaboration](https://discord.gg/PPzD2hTrXt)** - Join the live chat for quick discussions and collaboration.  
-
-- **[Participate in GitHub Issues](https://github.com/InvoicePlane/InvoicePlane/issues)** - Participate in bug reports, feature requests, and discussions and feature planning.
- 
-- **Helping with Troubleshooting:** Provide solutions and suggestions in support threads on the [Community Forums](https://community.invoiceplane.com/) and on [Discord](https://discord.gg/PPzD2hTrXt)
+* **[Discord Community](https://discord.gg/PPzD2hTrXt)** — Real-time collaboration with developers.
+* **GitHub Discussions / Issues** — Participate in design and feedback.
+* **Contribute Examples or Demos** — Share code samples, bug reproductions, or UI ideas.
 
 ---
 
 ## Development Guidelines
 
-### Setting Up Your Development Environment
-
-1. **Clone the Repository & Set Up Docker**  
-   ```sh
-   git clone https://github.com/InvoicePlane/InvoicePlane.git
-   cd InvoicePlane
-   cp .env.example .env
-   docker-compose up --build -d
-   ```
-
-2. **Install Dependencies (if applicable)**  
-   ```sh
-   composer install
-   yarn install
-   yarn grunt
-   ```
-
 ### Coding Standards
 
-- **PHP:** PSR-12 Standard  
-- **JavaScript:** Standard JS Code Formatting  
+Consistency matters across all Valourite repositories.
 
-### Testing
-
-- Testing is very much appreciated, especially during Beta phases. Click through all functionalities of the application and check if you see weird behavior (for example: uploads not working anymore after a new Beta version of InvoicePlane), mention it in the community (Discord, community.invoiceplane.com forums) and see if an issue should be made.
+| Language                | Standard                     |
+| ----------------------- | ---------------------------- |
+| PHP                     | PSR-12 + Laravel conventions |
+| JavaScript / TypeScript | ESLint (Standard/Prettier)   |
+| Dart (Flutter)          | Dart Style Guide             |
+| Markdown / Docs         | Simple and concise English   |
 
 ### Branching Strategy
 
-- `development` **Active** development
-- `bugfix/*` For bug fixes. Please refer to an issue, if you have one.
-- `feature/*` New features. Please refer to an issue, if you have one.
+* `main` → Stable releases
+* `develop` → Active development
+* `feature/*` → New features
+* `bugfix/*` → Fixes
+* `hotfix/*` → Urgent production fixes
 
-- `master` **Stable releases**. Every time a new version of InvoicePlane goes live, that same version is available in the `master` branch.
+### Commit Messages
+
+Use clear, conventional commits when possible:
+
+```
+feat: add support for dynamic form fields
+fix: resolve null reference in expense seeder
+docs: update README with installation steps
+```
+
+---
+
+## Getting Started with Development
+
+Each Valourite project may differ slightly, but most Laravel-based packages follow:
+
+```bash
+git clone https://github.com/Valourite/ExamplePackage.git
+cd ExamplePackage
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan serve
+```
+
+For **Flutter projects**:
+
+```bash
+flutter pub get
+flutter run
+```
+
+See the repository’s `README.md` for setup instructions specific to that project.
 
 ---
 
 ## Community and Support
 
-- **[Community Forums](https://community.invoiceplane.com/)** - Ask questions and share knowledge.  
-- **[GitHub Issues](https://github.com/InvoicePlane/InvoicePlane/issues)** - Report bugs and request features.  
+* 💬 **Discord:** [discord.gg/PPzD2hTrXt](https://discord.gg/PPzD2hTrXt)
+* 🧩 **GitHub Organization:** [github.com/Valourite](https://github.com/Valourite)
+* 🧠 **Knowledge Base (Coming Soon):** Central documentation for all packages
 
 ---
 
 ## Code of Conduct
 
-We follow a **Code of Conduct** to ensure a friendly and inclusive environment.  
-By contributing, you agree to abide by these principles.
+We’re committed to maintaining a welcoming, respectful, and inclusive environment for all contributors.
 
-For full details, see [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).  
+By participating in any Valourite project, you agree to uphold the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Happy Coding!
+---
+
+**Together, we’re building something powerful.
+Welcome to Valourite — let’s create with purpose.**
+
+---
+
+Would you like me to make a shorter version optimized for display on every repo’s homepage (like a `CONTRIBUTING.md` + small summary for the README)?
