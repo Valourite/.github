@@ -195,5 +195,3 @@ By participating in any Valourite project, you agree to uphold the [Code of Cond
 Welcome to Valourite — let’s create with purpose.**
 
 ---
-
-Would you like me to make a shorter version optimized for display on every repo’s homepage (like a `CONTRIBUTING.md` + small summary for the README)?
